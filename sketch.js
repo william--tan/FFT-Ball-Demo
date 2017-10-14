@@ -15,6 +15,8 @@ function setup() {
     mic.start();
     fft = new p5.FFT(0.6, 1024);
     fft.setInput(mic);
+
+    img = loadImage("https://i.imgur.com/AJpfcQv.png");
 }
 
 //Find highest amplitude in Array

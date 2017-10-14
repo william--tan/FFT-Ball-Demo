@@ -11,8 +11,8 @@ function Bird() {
     this.show = function() {
         background(200);
         //var h = -this.targetLevel/40*height + height-25;
-
-        ellipse(width/2, this.y, 32, 32);
+        image(img, width/3, this.y, img.width/5, img.height/5);
+        //ellipse(width/2, this.y, 32, 32);
     }
 
     this.up = function() {
